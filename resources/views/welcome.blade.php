@@ -6,7 +6,6 @@
     <title>prueba</title>
 </head>
 <body>
-    <h1>hola!</h1>
-        <a href="{{route('producto')}}">eee</a>
+    
 </body>
 </html>
