@@ -1,5 +1,7 @@
 <!-- resources/views/productos/index.blade.php -->
+@extends('layouts.app')
 
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,3 +71,4 @@
 
     </body>
 </html>
+@endsection
