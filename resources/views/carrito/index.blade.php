@@ -1,5 +1,6 @@
 <!-- resources/views/carrito/index.blade.php -->
-
+@extends('layouts.app')
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,3 +32,4 @@
     @endif
 </body>
 </html>
+@endsection

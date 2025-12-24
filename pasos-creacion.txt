@@ -1,0 +1,9 @@
+estos fueron los pasos que segui para crear este archivo
+
+->primero instale el proyecto con laravel 12 con el comando composer create-project laravel/laravel "nombre del proyecto"
+->cambie las credenciales de la base de datos para que se conecte con mysql
+->agregue las migraciones para crear la base de datos y las tablas de la base de datos
+->se agrega ruta en el web.php el Route::resource('productos', ProductoController::class); para controlar el crud del controlador
+de productos
+->cree el controlador con comando de php artisan make::controller y luego agregue las funcionalidades de cada uno y este crea el crud junto al index
+->

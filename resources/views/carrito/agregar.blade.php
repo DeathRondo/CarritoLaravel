@@ -1,4 +1,7 @@
-<!-- resources/views/productos/index.blade.php -->
+@extends('layouts.app')
+@section('content')<!-- resources/views/productos/index.blade.php -->
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,3 +22,4 @@
     @endforeach
 </body>
 </html>
+@endsection

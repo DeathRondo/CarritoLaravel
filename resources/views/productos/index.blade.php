@@ -14,9 +14,7 @@
     <body>
 
         <h1>Lista de Productos</h1>
-        <div class="bg-red-500 text-white p-4">
-  Hola Tailwind
-</div>
+        0
 
         <a href="{{ route('productos.create') }}">Nuevo Producto</a>
 
@@ -40,7 +38,7 @@
                                 <a href="{{ route('productos.edit', $producto->id) }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-600 rounded-lg hover:bg-blue-700">
                                     Editar
                                 </a>
-                                    <a href="{{ route('productos.show', $producto->id) }}">Ver</a>
+                                    <a href="{{ route('productos.show', $producto->id) }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-purple-600 rounded-lg hover:bg-blue-700">Ver</a>
                                     <form action="{{ route('productos.destroy', $producto->id) }}" method="POST" onsubmit="return confirm('¿Eliminar?')">
                                         @csrf
                                         @method('DELETE')
@@ -65,7 +63,7 @@
                 </div>
             @endforeach
         </div>
-    <a href="{{ route('carrito.index') }}" class="btn btn-primary">Ver carrito</a>
+    <a href="{{ route('carrito.index') }}" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-red-600 rounded-lg hover:bg-red-700">Ver carrito</a>
 
         
 

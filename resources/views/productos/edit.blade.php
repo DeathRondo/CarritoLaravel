@@ -1,3 +1,6 @@
+@extends('layouts.app')
+@section('content')
+
 <h1>Editar Producto</h1>
 
 <form action="{{ route('productos.update', $producto->id) }}" method="POST">
@@ -10,3 +13,4 @@
     <button type="submit">Actualizar</button>
     <a href="{{ route('productos.index') }}">Volver</a>
 </form>
+@endsection
